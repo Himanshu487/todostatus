@@ -91,7 +91,7 @@ function GroupInput() {
           {index !== 0 && <button className='BtnDelete' onClick={() => handleDeleteInput(input.id)}><MdDelete className='deleteIcon'/></button>}
         </div>
       ))}
-      <button className='AddBtn Btn' onClick={handleAddInput}> <FaPlus /> Add Group</button>
+      <button className='AddBtn Btn' onClick={handleAddInput}> <FaPlus className='plusAdd'/> Add Group</button>
       <button className='FetchBtn Btn' onClick={fetchTodos}>Show Status</button>
       <ul>
         {todos.map((todo) => (

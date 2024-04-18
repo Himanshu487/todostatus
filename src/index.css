@@ -26,6 +26,8 @@ width: 100px;
 .AddBtn.Btn{
   background-color: transparent;
   border: none;
+  display: flex;
+  align-items: center;
 }
 .inputval{
   border-style: none;
@@ -66,4 +68,8 @@ width: 100px;
 .RangeWrapper .inputval{
   border-right: 2px solid black;
   border-left: 2px solid black;
+}
+
+.plusAdd{
+  color: #0F52BA;
 }
